@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sutheshna A | AI & Data Science Engineer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; scroll-behavior: smooth; }
+    body { background: #ffffff; color: #0b132b; overflow-x: hidden; }
+
+    /* Navbar */
+    nav {
+      position: fixed; width: 100%; top: 0; left: 0; z-index: 1000;
+      background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);
+      display: flex; justify-content: center; gap: 25px; padding: 15px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    nav a { text-decoration: none; color: #0f62fe; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #06243a; }
+
+    /* Hero Section */
+    .hero {
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      flex-direction: column; text-align: center; padding: 0 20px;
+      background: linear-gradient(180deg, #eaf4ff 0%, #fff 100%);
+    }
+    .hero img {
+      width: 150px; height: 150px; border-radius: 50%; border: 5px solid #0f62fe;
+      object-fit: cover; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(15, 98, 254, 0.2);
+    }
+    .hero h1 { font-size: 2.4rem; color: #06243a; }
+    .hero h3 { color: #0f62fe; margin: 10px 0; font-weight: 600; }
+    .hero p { color: #4a5568; max-width: 600px; margin-bottom: 15px; font-size: 0.95rem; }
+    .hero .contact { margin-bottom: 25px; color: #0f62fe; font-weight: 600; font-size: 0.95rem; }
+    .hero .contact a { color: #0f62fe; text-decoration: none; }
+    .hero .contact a:hover { text-decoration: underline; }
+
+    .btn {
+      display: inline-block; padding: 12px 20px; border-radius: 25px;
+      background: #0f62fe; color: #fff; font-weight: 600; text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #0056d1; }
+
+    /* Section General */
+    section {
+      padding: 80px 20px; max-width: 1000px; margin: auto;
+    }
+    section h2 {
+      text-align: center; color: #06243a; margin-bottom: 30px; font-size: 1.8rem; position: relative;
+    }
+    section h2::after {
+      content: ""; position: absolute; bottom: -10px; left: 50%;
+      transform: translateX(-50%); width: 60px; height: 3px;
+      background: #0f62fe; border-radius: 2px;
+    }
+
+    .card {
+      background: #f8fbff; padding: 20px; border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px; transition: transform 0.3s ease;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { color: #0f62fe; margin-bottom: 10px; }
+    .card p { color: #4a5568; font-size: 0.95rem; line-height: 1.6; }
+
+    .links a {
+      display: inline-block; margin-right: 10px; margin-top: 10px;
+      color: #0f62fe; text-decoration: none; font-weight: 600;
+    }
+    .links a:hover { text-decoration: underline; }
+
+    /* Badges */
+    .badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .badge {
+      background: #eaf4ff; color: #0f62fe;
+      padding: 8px 14px; border-radius: 25px; font-weight: 600; font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center; background: #0f62fe; color: white;
+      padding: 25px 10px; margin-top: 50px;
+    }
+    footer a { color: white; text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.9rem; }
+      .hero h3 { font-size: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#internships">Internships</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#interests">Interests</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <img src="C:\Users\ADMIN\OneDrive\Suthi IT docs\Sutheshna Protfolio\profile.jpeg" alt="Sutheshna Profile">
+    <h1>Sutheshna A</h1>
+    <h3>AI & Data Science Engineer</h3>
+    <p>“Consistency is my key; with that, let me help unlock your future visions.”<br>B.Tech (Artificial Intelligence & Data Science) — Velalar College of Engineering and Technology, Erode (Currently Pursuing)</p>
+    <div class="contact">
+      📞 <a href="tel:+916383916603">+91 63839 16603</a> | ✉️ <a href="mailto:sutheshnaa@outlook.com">sutheshnaa@outlook.com</a><br>
+      📍 Namakkal, Tamil Nadu, India
+    </div>
+    <a href="https://drive.google.com/file/d/1SFTnE5NMklFedfbPIe7B9Lx9Tvfsg--h/view?usp=sharing" class="btn" target="_blank">View Resume</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am an aspiring AI and Machine Learning professional with a strong focus on AI, LLMs, and deep learning. Currently pursuing a B-Tech in Artificial Intelligence and Data Science, I have hands-on experience through internships and projects that leverage cutting-edge technologies to create innovative solutions. My goal is to contribute to real-world AI applications while enhancing my skill set and knowledge in AI and ML domain.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>COPS in Cars</h3>
+      <p><strong>Technologies used:</strong> YOLO V5, RPI 4 model B, Arduino IDE</p>
+      <p>AI-Engineered a real-time AI accident detection system utilizing sensor data, reducing accident response time by two minutes and enabling faster dispatch of emergency services. Supports 2-way communication and real-time response.</p>
+      <div class="links"><a href="https://github.com/Suthi01/COPS-in-Cars" target="_blank">GitHub</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Plant Disease Detector</h3>
+      <p><strong>Technologies used:</strong> CNN (Convolutional Neural Network)</p>
+      <p>Integrated a CNN-based plant disease classifier into a mobile application, enabling farmers to quickly identify potential issues in the field with a 90% satisfaction rate based on user feedback.</p>
+    </div>
+
+    <div class="card">
+      <h3>Weather Predictor (RAG Model)</h3>
+      <p>Developed for the GUVI SAWIT.AI Learnathon Challenge — a RAG-based Generative AI model for real-time weather predictions in Chennai and Bangalore.</p>
+      <div class="links"><a href="https://www.guvi.in/rag/e10a2479-f610-4b48-a3a3-958e2ada7d60/" target="_blank">View Project</a></div>
+    </div>
+  </section>
+
+  <!-- Internships -->
+  <section id="internships">
+    <h2>Internships</h2>
+
+    <div class="card">
+      <h3>Lennox India Technology Centre Pvt Ltd, Chennai</h3>
+      <p><strong>ML Intern</strong> — Jun 2025 – Jul 2025</p>
+      <p>Engineered and deployed an offline LLM system for summarizing FEA reports, cutting information retrieval time from hours to minutes. Collaborated with a 2-member team to design AI-driven solutions, improving retrieval efficiency by 40% through data-driven problem-solving.</p>
+      <div class="links">
+        <a href="https://drive.google.com/file/d/1Qqf6Pq9VZnKHo5W49jl3IphQAbVj8z6H/view?usp=sharing" target="_blank">Offer Letter</a>
+        <a href="https://drive.google.com/file/d/1Om0-jy4Tf_juRu-ZVP3aPEH2T_iF7bnX/view?usp=sharing" target="_blank">Certificate</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Infosys Springboard, Online</h3>
+      <p><strong>AI Intern</strong> — Oct 2024 – Dec 2024</p>
+      <p>Developed interactive storytelling, NLP, and dynamic content generation, boosting user engagement through personal and immersive storytelling.</p>
+      <div class="links">
+        <a href="https://drive.google.com/file/d/1EgKv-v_n726LbCYCNYDVNbQIt0Odwo7w/view?usp=sharing" target="_blank">Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>Certifications & Courses</h2>
+    <div class="card">
+      <p><strong>Principles of Generative AI</strong> — Infosys Springboard Certification<br><a href="https://drive.google.com/file/d/1HXE3tBtOm7PilKOqvo95P1qBqyp4An65/view?usp=sharing" target="_blank">View Certificate</a></p>
+    </div>
+    <div class="card">
+      <p><strong>Artificial Intelligence Primer</strong> — Infosys Springboard Certification<br><a href="https://drive.google.com/file/d/1CPMavUXDWzppJ34F_bG9Vm4oFvjiKner/view?usp=sharing" target="_blank">View Certificate</a></p>
+    </div>
+    <div class="card">
+      <p><strong>Privacy and Security in Online Social Media</strong> — NPTEL Course (Jan–Apr 2024)</p>
+    </div>
+    <div class="card">
+      <p><strong>Introduction to Industry 4.0</strong> — NPTEL Course (Jul–Oct 2024)</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Technologies & Skills</h2>
+    <div class="card">
+      <h3>Programming Languages</h3>
+      <div class="badges">
+        <div class="badge">Python</div>
+        <div class="badge">Core Java</div>
+        <div class="badge">MySQL</div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>AI Tools & Frameworks</h3>
+      <div class="badges">
+        <div class="badge">GenAI</div>
+        <div class="badge">Prompt Engineering</div>
+        <div class="badge">Machine Learning</div>
+        <div class="badge">TensorFlow</div>
+        <div class="badge">OpenCV</div>
+        <div class="badge">Hugging Face Transformers</div>
+        <div class="badge">PyTorch</div>
+        <div class="badge">OLLAMa</div>
+        <div class="badge">Deep Learning</div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>3D Tools & Utilities</h3>
+      <div class="badges">
+        <div class="badge">Blender</div>
+        <div class="badge">Adobe Aero</div>
+        <div class="badge">RPi4 model</div>
+        <div class="badge">CLI Tools</div>
+        <div class="badge">Canva</div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Soft Skills</h3>
+      <div class="badges">
+        <div class="badge">Leadership</div>
+        <div class="badge">Self-Learning</div>
+        <div class="badge">Adaptability</div>
+        <div class="badge">Team Collaboration</div>
+        <div class="badge">Quick Learning</div>
+        <div class="badge">Time Management</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="card">
+      <p><strong>TCS ION NQT - IT</strong> — Scored 70.6% <a href="https://drive.google.com/file/d/1i6keolDQj2BZYZeUrjg-FcDLlG1SXNf7/view?usp=sharing" target="_blank">View Report</a></p>
+    </div>
+    <div class="card">
+      <p><strong>PALS Innova! 2025</strong> — Participated in competition conducted by IIT Madras</p>
+    </div>
+    <div class="card">
+      <p><strong>First Prize – Project Expo (2025)</strong> — Won for <em>COPS in Cars (AI Agent)</em></p>
+    </div>
+  </section>
+
+  <!-- Interests -->
+  <section id="interests">
+    <h2>Interests</h2>
+    <div class="card">
+      <div class="badges">
+        <div class="badge">Artificial Intelligence Research</div>
+        <div class="badge">AI Model Development</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 <strong>Sutheshna A</strong> — AI & Data Science | Namakkal, Tamil Nadu</p>
+    <p>📞 <a href="tel:+916383916603">+91 63839 16603</a> | ✉️ <a href="mailto:sutheshnaa@outlook.com">sutheshnaa@outlook.com</a></p>
+    <p><a href="https://github.com/Suthi01" target="_blank">GitHub</a> • <a href="https://www.linkedin.com/in/sutheshna-arumugam" target="_blank">LinkedIn</a></p>
+  </footer>
+
+</body>
+</html>
